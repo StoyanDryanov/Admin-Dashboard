@@ -10,9 +10,20 @@
     --supporting-color-yellow: #ffc107;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+/* svg styles + changing their color to white  */
+/* for color change - https://codepen.io/sosuke/pen/Pjoqqp */
+.material-symbols-outlined {
+    font-variation-settings: "FILL"1, "wght"400, "GRAD"0, "opsz"48;
+    filter: invert(100%) sepia(4%) saturate(17%) hue-rotate(95deg) brightness(103%) contrast(107%);
+} 
+
+
