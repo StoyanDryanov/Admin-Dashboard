@@ -75,7 +75,7 @@ img {
     cursor: pointer;
 }
 
-.user-related img {
+.user-related img, .technical img {
     cursor: pointer;
 }
 
@@ -145,6 +145,11 @@ img {
     height: 48px;
     width: 48px;
     border-radius: 50%;
+}
+
+.top-right img:nth-child(1){
+    height: 32px;
+    width: 32px;
 }
 
 .top-right > p, .bottom-left p {
