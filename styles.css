@@ -75,7 +75,8 @@ img {
     cursor: pointer;
 }
 
-.user-related img, .technical img {
+.user-related img,
+.technical img {
     cursor: pointer;
 }
 
@@ -117,7 +118,8 @@ img {
     align-items: center;
 }
 
-.search-bar .top, .bottom {
+.search-bar .top,
+.bottom {
     justify-content: space-between;
 }
 
@@ -141,18 +143,20 @@ img {
     gap: 1.3rem;
 }
 
-.top-right img:nth-child(2), .bottom-left img{
+.top-right img:nth-child(2),
+.bottom-left img {
     height: 48px;
     width: 48px;
     border-radius: 50%;
 }
 
-.top-right img:nth-child(1){
+.top-right img:nth-child(1) {
     height: 32px;
     width: 32px;
 }
 
-.top-right > p, .bottom-left p {
+.top-right>p,
+.bottom-left p {
     color: #fefefe;
     font-weight: 700;
 }
@@ -161,17 +165,19 @@ img {
     gap: 1rem;
 }
 
-.bottom-left  p:first-of-type{
+.bottom-left p:first-of-type {
     font-size: .9rem;
 }
-.bottom-left  p:last-of-type{
+
+.bottom-left p:last-of-type {
     font-size: 1.3rem;
 }
 
-.bottom-right{
+.bottom-right {
     gap: 1rem;
 }
-.bottom-right .btn{
+
+.bottom-right .btn {
     height: 2.5rem;
     width: 5rem;
     padding: 4px 8px;
@@ -179,4 +185,5 @@ img {
     color: #fefefe;
     border-radius: 1.5rem;
     border: none;
+    font-weight: 600;
 }
